@@ -43,7 +43,7 @@ public class Main {
         else if(!gender.equalsIgnoreCase("м") && !gender.equalsIgnoreCase("ж")) {
             values(human);
         }
-        System.out.println("Введите имя: "); 
+        System.out.println("Введите имя: ");
         String name = (new Scanner(System.in).nextLine());
         System.out.println("Введите фамилию: ");
         String surname = (new Scanner(System.in).nextLine());
